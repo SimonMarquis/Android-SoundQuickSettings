@@ -1,0 +1,7 @@
+1. Add the Tile in the Quick Settings panel.
+2. Tap the Tile to show the volume slider.
+3. Long press the Tile to open the Sound panel.
+
+<u>Note:</u> Don't look for a launcher icon, this app only provides a Quick Settings Tile.
+
+Open Source project hosted on GitHub: https://github.com/SimonMarquis/Android-SoundQuickSettings
