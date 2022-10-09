@@ -5,15 +5,15 @@ plugins {
 
 val versionMajor = 1
 val versionMinor = 0
-val versionPatch = 0
+val versionPatch = 1
 val versionBuild = 0
 
 android {
-    compileSdk = 30
+    compileSdk = 33
     defaultConfig {
         applicationId = "fr.smarquis.soundquicksettings"
         minSdk = 24
-        targetSdk = 30
+        targetSdk = 33
         versionCode = versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
         versionName = "$versionMajor.$versionMinor.$versionPatch"
     }
