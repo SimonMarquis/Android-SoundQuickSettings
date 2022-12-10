@@ -14,6 +14,6 @@ class SoundTileService : TileService() {
         AlertDialog.Builder(this).create().apply {
             window?.clearFlags(FLAG_DIM_BEHIND)
             setOnShowListener(DialogInterface::dismiss)
-        }.let(::showDialog)
+        }.runCatching(::showDialog)
     }
 }
