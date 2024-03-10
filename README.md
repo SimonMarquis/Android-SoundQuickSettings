@@ -1,5 +1,9 @@
 # Sound Quick Settings
 
+[![Android CI](https://github.com/SimonMarquis/Android-SoundQuickSettings/workflows/Android%20CI/badge.svg)](https://github.com/SimonMarquis/Android-SoundQuickSettings/actions/workflows/android.yml)
+[![Google Play](https://img.shields.io/badge/Google_Play-black?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=fr.smarquis.soundquicksettings)
+[![F-Droid](https://img.shields.io/badge/F--Droid-black?style=flat&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/fr.smarquis.soundquicksettings/)
+
 | Quick Settings Tile | Volume slider | Sound panel |
 |---|---|---|
 | ![Tile](app/src/main/play/listings/en-US/graphics/phone-screenshots/1-screenshot_tile.png) | ![Slider](app/src/main/play/listings/en-US/graphics/phone-screenshots/2-screenshot_slider.png) | ![Panel](app/src/main/play/listings/en-US/graphics/phone-screenshots/2-screenshot_panel.png) |
