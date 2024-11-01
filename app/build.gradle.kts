@@ -9,12 +9,12 @@ val versionPatch = 5
 val versionBuild = 0
 
 android {
-    compileSdk = 33
+    compileSdk = 35
     defaultConfig {
         applicationId = "fr.smarquis.soundquicksettings"
         namespace = "fr.smarquis.soundquicksettings"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 35
         versionCode = versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
         versionName = "$versionMajor.$versionMinor.$versionPatch"
     }
