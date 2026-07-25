@@ -1,0 +1,25 @@
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    open-pull-requests-limit: 10
+    directories:
+      - /
+      - /.github/actions/*
+    schedule:
+      interval: monthly
+  - package-ecosystem: gradle
+    open-pull-requests-limit: 10
+    directory: /
+    schedule:
+      interval: monthly
+    registries: "*"
+    labels: []
+registries:
+  maven-google:
+    type: maven-repository
+    url: https://maven.google.com
+  gradle-plugins:
+    type: maven-repository
+    url: https://plugins.gradle.org/m2/
